@@ -166,6 +166,10 @@
   <ItemGroup>
     <Resource Include="WhatsApp.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\client.png" />
+    <Resource Include="image\server.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
